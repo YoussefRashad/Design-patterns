@@ -5,9 +5,12 @@
  */
 package StrategyPattern;
 
-import Ducks.*;
-import Fly.*;
-import Quack.*;
+import StrategyPattern.Ducks.MallardDuck;
+import StrategyPattern.Ducks.Duck;
+import StrategyPattern.Ducks.RedheadDuck;
+import StrategyPattern.Ducks.RubberDuck;
+import StrategyPattern.Fly.FlyRocketPowered;
+import StrategyPattern.Quack.Squeak;
 
 
 public class StrategyPattern {

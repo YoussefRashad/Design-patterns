@@ -3,23 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Ducks;
+package StrategyPattern.Ducks;
 
-import Fly.FlyWithWings;
-import Quack.Quack;
+import StrategyPattern.Fly.FlyWithWings;
+import StrategyPattern.Quack.Quack;
 
 /**
  *
  * @author DELL
  */
-public class RubberDuck extends Duck{
-    public RubberDuck() {
+public class DecoyDuck extends Duck{
+    public DecoyDuck() {
         System.out.println("Redhead Duck Constructor");
         this.flyBehavior = new FlyWithWings();
         this.quackBehavior = new Quack();
     }
     
     public void display(){
-        System.out.println("RubberDuck");
+        System.out.println("DecoyDuck");
     }
 }

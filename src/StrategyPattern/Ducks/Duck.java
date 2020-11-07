@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Ducks;
+package StrategyPattern.Ducks;
 
-import Fly.FlyBehavior;
-import Quack.QuackBehavior;
+import StrategyPattern.Fly.FlyBehavior;
+import StrategyPattern.Quack.QuackBehavior;
 
 /**
  *

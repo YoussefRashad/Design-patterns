@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Fly;
+package StrategyPattern.Quack;
 
 /**
  *
  * @author DELL
  */
-public class FlyNoWay implements FlyBehavior {
+public class Quack implements QuackBehavior{
     
     @Override
-    public void fly(){
-        System.out.println("I can not fly");
+    public void quack(){
+        System.out.println("quack");
     }
 }

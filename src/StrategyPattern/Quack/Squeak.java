@@ -3,12 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Quack;
+package StrategyPattern.Quack;
 
 /**
  *
  * @author DELL
  */
-public interface QuackBehavior {
-    public void quack();
+public class Squeak implements QuackBehavior{
+    
+    @Override
+    public void quack(){
+        System.out.println("squeak");
+    }
 }
